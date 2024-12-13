@@ -24,3 +24,29 @@ body {
     display: block;
     margin: 0.5rem 0;
   }
+
+  fieldset {
+    border: none;
+    padding: 2rem 0 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23
+  }
