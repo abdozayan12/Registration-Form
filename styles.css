@@ -18,6 +18,7 @@ body {
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding-bottom: 2em;
   }
 
   label {
@@ -38,6 +39,7 @@ body {
   input, textarea, select {
     margin: 10px 0 0 0;
     width: 100%;
+    min-height: 2em;
   }
 
   .inline {
@@ -48,5 +50,21 @@ body {
 
   input, textarea {
     background-color: #0a0a23;
-    border: 1px solid #0a0a23
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+  }
+
+  input[type="file"] {
+    padding: 1px 2px;
   }
